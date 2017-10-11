@@ -512,6 +512,7 @@ client.prototype.handleMessage = function handleMessage(message) {
                         case "msg_ratelimit":
                         case "msg_subsonly":
                         case "msg_timedout":
+                        case "msg_followersonly":
                         case "no_help":
                         case "usage_disconnect":
                         case "usage_help":
